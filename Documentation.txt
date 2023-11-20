@@ -1,0 +1,56 @@
+HTML
+- HTML structure defines a dashboard with main four widgets: Widget_1: Clock, Widget_2: 
+To-Do List, Widget_3: Weather,Widget_4: News.
+Widgets can be added and/or deleted. 
+
+DESIGN CHOICES
+- Navigation bar was included for an enhanced visual user experience.
+- Each widget structured with a heading, content area, and three-dots icon for potential 
+settings. Widgets have a dark background with white text for better readability.
+
+RESPONSIVE DESIGN
+- Employs Bootstrap for enhancing visual elements, including a variety of icons, 
+contributing to a more stylish appearance and a visually appealing dashboard.
+- Custom CSS styles have been applied strategically to further enhance and refine 
+the overall visual presentation of the web page.
+
+DARK MODE
+- Includes a dark mode toggle button (changeMode()) that not only changes the body's 
+background to a dark color but also adapts the color scheme of widgets, providing a 
+cohesive dark mode experience throughout the dashboard.
+
+EXTERNAL LIBRARIES/TOOLS
+- Bootstrap
+Primarily employed for its rich set of icons and aesthetic enhancements, Bootstrap adds 
+a visual appeal to the dashboard. While it simplifies the integration of icons, its usage 
+extends to refining the overall look and feel of the site. The preference for Bootstrap stems 
+from its simplicity in incorporating attractive visual elements, contributing to an enhanced 
+and visually pleasing user interface.
+
+JAVASCRIPT FILES
+- Clock.js -> Handles the real-time clock functionality.
+- ToDoList.js -> Manages the To-Do List widget, allowing users to add, delete, and mark tasks as completed.
+- Weather.js -> Fetches weather data using the OpenWeatherMap API and displays temperature and wind speed.
+- News.js -> Fetches news articles from the News API and displays them in the News widget.
+- DragAndDrop.js -> Implements drag-and-drop functionality for reordering widgets.
+- Animation.js -> Provides animations for widget interactions.
+
+LOCAL STORAGE
+- Local storage functionality is incorporated in the To-Do List, allowing users to persistently save 
+added or deleted tasks. Even after reloading the page, the tasks remain accessible.
+- The drag-and-drop feature not only facilitates the rearrangement of widgets but also 
+ensures that the new order is preserved after a page reload. Users can easily customize their dashboard 
+layout, and the changes will persist across sessions.
+
+USER INTERACTIONS
+- Users can add and/or delete widgets.
+- Users can use Drag-and-drop functionality for widget reordering.
+- Widgets are designed with specific minimum and maximum width/height attributes, enabling users to 
+resize them, thereby offering a personalized experience in adjusting the size of widgets according 
+to individual preferences.
+
+RESPONSIVENESS
+- The dashboard layout adjusts to different screen sizes, ensuring a good user experience on various devices.
+
+
+

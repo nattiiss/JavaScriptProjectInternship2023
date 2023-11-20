@@ -1,0 +1,368 @@
+html body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+
+.navigationBar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 120px;
+    background-color: #333131;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 80;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#widget-container {
+    min-width: 770px;
+    max-width: none;
+    padding-left: 180px;
+    padding-right: 60px;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+}
+
+#widget1 {
+    background-color: 	#1f3135;
+    min-width: 720px;
+    max-width: 770px;
+    min-height: 450px;
+    max-height: 500px;
+    float: left;
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: both;
+    border-radius: 20px;
+    border: 1px solid #333131;
+}
+
+#widget2 {
+    background-color: 	#1f3135;
+    min-width: 720px;
+    max-width: 770px;
+    min-height: 450px;
+    max-height: 500px;
+    float: left;
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: both;
+    border-radius: 20px;
+    border: 1px solid #333131;
+}
+
+#widget3 {
+
+    background-image: url('./widgetBackground/WeatherWidget.jpg');
+    background-size: cover;
+    min-width: 720px;
+    max-width: 770px;
+    min-height: 450px;
+    max-height: 500px;
+    float: left;
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: both;
+    border-radius: 20px;
+    border: 1px solid #333131;
+}
+
+#widget4 {
+    background-color: #1f3135;
+    min-width: 720px;
+    max-width: 770px;
+    min-height: 450px;
+    max-height: 500px;
+    float: left;
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: both;
+    border-radius: 20px;
+    border: 1px solid #333131;
+}
+
+
+
+.new-widget {
+    background-color: #1f3135;
+    min-width: 720px;
+    max-width: 770px;
+    min-height: 450px;
+    max-height: 500px;
+    float: left;
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: both;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 1px solid #333131;
+  }
+  
+
+.time {
+    margin-top: 50px;
+    margin-left: 135px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 120px;
+    font-weight: bold;
+    color: black;
+}
+
+
+#widget1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 320px;
+    color: black;
+}
+
+
+#widget2 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 320px;
+    color: black;
+}
+
+#widget3 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 320px;
+    color: black;
+}
+
+#widget4 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 320px;
+    color: black;
+}
+
+.heading  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    background-color: #333131;
+}
+
+.bi-three-dots {
+    margin-left: 30px;
+    color: aliceblue;
+}
+
+
+.changeMode {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    margin-left: 15px;
+}
+
+
+.bi-moon-fill {
+    width: 50px;
+    height: 50px;
+    margin-top: 2px;
+}
+
+
+#widget3 .temp {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    padding-top: 50px;
+    margin-left: 110px;
+    font-weight: bold;
+    color: black;
+}
+
+#widget3 .wind {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 110px;
+    color: black;
+}
+
+#widget4 .author {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-top: 50px;
+}
+
+.news-feed {
+    padding: 20px;
+    margin-top: 30px;
+    width: 90%;
+}
+
+#news-list {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    list-style: none;
+}
+
+#news-list li {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    list-style: none;
+}
+
+.button-container {
+    position:relative;
+    white-space: nowrap;
+    margin-left: 800px
+}
+
+
+
+#addWidget{
+    background-color: #333131;
+    height: 42px;
+    width: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#deleteWidget{
+    background-color: #333131;
+    height: 42px;
+    width:160px;
+    margin-left: 20px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.taskInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.taskInput .form-control {
+    background-color: rgb(190, 202, 212);
+}
+
+#widget2 ul li{
+    list-style: none;
+    padding: 0;
+    width: 85%;
+    height: 50px;
+    padding: 10px 10px 10px 10px;   
+    color: black;
+    margin-left: 5%;
+    background-color: rgb(190, 202, 212);
+    border-radius: 10px;
+}
+
+#widget2 li {
+   margin-bottom: 2px;
+}
+
+.button {
+    background-color: #333131;
+    border:2px solid #333131;
+    border-radius: 8px;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    color: black;
+}
+
+.checked {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #1f3135;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    font-size: 20px; 
+    float:right;
+}
+
+.dark-mode {
+    background-color: #030303;
+}
+
+.dark-mode-widget {
+    background-color: rgb(77, 105, 138) !important;
+}
